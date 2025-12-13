@@ -66,43 +66,109 @@ These documents serve as the **conceptual backbone** for this repository.
 - LangGraph and graph-based agent workflows
 - Agentic RAG
 
+## 🔗 Resource Mapping — Topic → Reference Document
+
+This table maps **core concepts** to their **conceptual reference material**.  
+Use it as the primary entry point for understanding the ideas explored in this repository.
+
+| Topic | Reference |
+|------|-----------|
+| Natural Language Processing Foundations | [Introduction to NLP and Generative AI](intro_nlp_genai.pdf) |
+| Text Representation & Feature Engineering | [Introduction to NLP and Generative AI](intro_nlp_genai.pdf) |
+| Deep Learning for Language | [Introduction to NLP and Generative AI](intro_nlp_genai.pdf) |
+| Transformers and Large Language Models | [Introduction to NLP and Generative AI](intro_nlp_genai.pdf) |
+| Motivation for Generative AI | [Introduction to NLP and Generative AI](intro_nlp_genai.pdf) |
+| Motivation for Retrieval-Augmented Generation | [Retrieval-Augmented Generation](exclusive_rag.pdf) |
+| Retrieval Strategies | [Retrieval-Augmented Generation](exclusive_rag.pdf) |
+| RAG Architectures | [Retrieval-Augmented Generation](exclusive_rag.pdf) |
+| Advanced RAG Variants | [Retrieval-Augmented Generation](exclusive_rag.pdf) |
+| RAG Evaluation | [Retrieval-Augmented Generation](exclusive_rag.pdf) |
+| Agents (Software Perspective) | [Agentic AI and Multi-Agent Systems](AgenticAI.pdf) |
+| Agent Reasoning and Action Loops | [Agentic AI and Multi-Agent Systems](AgenticAI.pdf) |
+| Agent Design Patterns | [Agentic AI and Multi-Agent Systems](AgenticAI.pdf) |
+| Multi-Agent Systems | [Agentic AI and Multi-Agent Systems](AgenticAI.pdf) |
+| Multi-Agent Architectures | [Agentic AI and Multi-Agent Systems](AgenticAI.pdf) |
+| Graph-Based Agent Execution | [Agentic AI and Multi-Agent Systems](AgenticAI.pdf) |
+| LangGraph | [Agentic AI and Multi-Agent Systems](AgenticAI.pdf) |
+| Agentic RAG | [Agentic AI and Multi-Agent Systems](AgenticAI.pdf) |
+
 ---
 
-## 🔗 Resource Mapping (Documents · Code · Data)
+## 📓 Resource Mapping — Topic → Notebook
 
-This section maps **concepts → reference documents → example code → data/documents**.  
-Code and data paths are **logical placeholders** and may evolve.
+This mapping connects **concepts** to **notebooks** where those ideas are demonstrated.  
+The mapping is derived from **markdown explanations and code comments inside the notebooks**.
 
-### 📄 Topic ↔ Document Mapping
-
-| Concept Area | Reference Document |
-|-------------|-------------------|-------------|--------------------|
-| NLP Foundations | [intro_nlp_genai.pdf](intro_nlp_genai.pdf) |
-| Transformers & LLMs | [intro_nlp_genai.pdf](intro_nlp_genai.pdf) | 
-| Motivation for RAG | [exclusive_rag.pdf](exclusive_rag.pdf) | 
-| Retrieval Strategies | [exclusive_rag.pdf](exclusive_rag.pdf) | 
-| RAG Pipelines | [exclusive_rag.pdf](exclusive_rag.pdf) | 
-| RAG Evaluation | [exclusive_rag.pdf](exclusive_rag.pdf) |
-| Agents (Conceptual) | [AgenticAI.pdf](AgenticAI.pdf) | 
-| Agent Patterns | [AgenticAI.pdf](AgenticAI.pdf) | 
-| Multi-Agent Systems | [AgenticAI.pdf](AgenticAI.pdf) 
-| LangGraph | [AgenticAI.pdf](AgenticAI.pdf) | 
-| Agentic RAG | [AgenticAI.pdf](AgenticAI.pdf), [exclusive_rag.pdf](exclusive_rag.pdf) | 
-
-> ⚠️ **Note:**  
-> Paths indicate **intended logical grouping**, not guaranteed availability.
+| Topic | Notebook |
+|------|----------|
+| Basic Retrieval-Augmented Generation | [RAG Pipeline Demonstration](LLM_RAG.ipynb) |
+| Conversational RAG | [Conversation-Aware RAG](CONVERSATION_RAG.ipynb) |
+| Conversational RAG with LangChain | [LangChain Conversational RAG](CONV_RAG_LANGCHAIN.ipynb) |
+| LangChain Fundamentals | [LangChain Core Concepts](LangChainV2.ipynb) |
+| Graph-Based Conversational RAG | [LangGraph Conversational RAG](LangGraph_CONV_RAG.ipynb) |
+| Agents and Tool Calling | [Agentic AI Demonstrations](AgenticAI.ipynb) |
+| Multi-Agent Collaboration | [Role-Based Agent System](AgentWriter.ipynb) |
+| Agentic RAG | [Agentic RAG Workflow](AgenticAI.ipynb) |
 
 ---
 
-## 🧪 Suggested Exploration Flow
+## 🧠 Conceptual Outline
 
 ```text
-Read Reference PDF
+Natural Language Processing
         ↓
-Understand Architecture
+Neural & Deep Learning for Language
         ↓
-Explore / Write Code
+Transformers and Large Language Models
         ↓
-Add Documents or Data
+Limitations of Standalone LLMs
         ↓
-Test RAG / Agentic Workflows
+Retrieval-Augmented Generation (RAG)
+        ↓
+Advanced RAG Architectures
+        ↓
+Agents as Autonomous Software Entities
+        ↓
+Multi-Agent Systems
+        ↓
+Graph-Based Agent Execution (LangGraph)
+        ↓
+Agentic RAG
+
+
+## 🛠️ Tools & Technologies Used
+
+The concepts, demonstrations, and experiments in this repository involve the following tools and technologies:
+
+- **Python** – primary language for experimentation and prototyping  
+- **Large Language Models (LLMs)** – reasoning and text generation  
+- **LangChain** – chaining, retrieval, and tool integration  
+- **LangGraph** – graph-based agent orchestration  
+- **Vector Databases** – semantic retrieval and similarity search  
+- **Embedding Models** – text-to-vector representations  
+- **Prompt Engineering** – instruction design and reasoning control  
+- **Agent Frameworks** – tool-calling, planning, and reflection  
+- **Multi-Agent Coordination Patterns** – collaboration and delegation  
+
+*(Exact tools and configurations may evolve over time.)*
+
+## 👤 Author Profile
+
+**Dr. Shailesh Sivan**  
+Assistant Professor, Department of Computer Science, CUSAT  
+
+**Professional Focus**
+- Generative Artificial Intelligence  
+- Retrieval-Augmented Generation (RAG)  
+- Agentic AI and Autonomous Systems  
+- Multi-Agent Systems  
+- Graph-based AI Architectures  
+
+**Roles**
+- Academic educator and researcher  
+- AI architect and consultant  
+- Workshop facilitator and mentor  
+
+📧 [shaileshsivan@gmail.com](mailto:shaileshsivan@gmail.com)  
+🌐 [GitHub Profile](https://github.com/shaileshsi)
+
