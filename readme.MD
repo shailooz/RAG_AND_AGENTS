@@ -114,7 +114,7 @@ The mapping is derived from **markdown explanations and code comments inside the
 
 ## 🧠 Conceptual Outline
 
-
+```text
 Natural Language Processing
         ↓
 Neural & Deep Learning for Language
@@ -134,6 +134,7 @@ Multi-Agent Systems
 Graph-Based Agent Execution (LangGraph)
         ↓
 Agentic RAG
+```
 
 
 ## 🛠️ Tools & Technologies Used
