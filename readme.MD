@@ -73,21 +73,21 @@ These documents serve as the **conceptual backbone** for this repository.
 This section maps **concepts → reference documents → example code → data/documents**.  
 Code and data paths are **logical placeholders** and may evolve.
 
-### 📄 Document ↔ Code ↔ Data Mapping
+### 📄 Topic ↔ Document Mapping
 
-| Concept Area | Reference Document | Code (Link) | Data / Docs (Link) |
+| Concept Area | Reference Document |
 |-------------|-------------------|-------------|--------------------|
-| NLP Foundations | [intro_nlp_genai.pdf](intro_nlp_genai.pdf) | `codes/nlp/` | `data/text/` |
-| Transformers & LLMs | [intro_nlp_genai.pdf](intro_nlp_genai.pdf) | `codes/llm_basics/` | `data/prompts/` |
-| Motivation for RAG | [exclusive_rag.pdf](exclusive_rag.pdf) | `codes/rag_intro/` | `data/documents/` |
-| Retrieval Strategies | [exclusive_rag.pdf](exclusive_rag.pdf) | `codes/retrieval/` | `data/embeddings/` |
-| RAG Pipelines | [exclusive_rag.pdf](exclusive_rag.pdf) | `codes/rag_pipeline/` | `data/knowledge_base/` |
-| RAG Evaluation | [exclusive_rag.pdf](exclusive_rag.pdf) | `codes/rag_evaluation/` | `data/eval_sets/` |
-| Agents (Conceptual) | [AgenticAI.pdf](AgenticAI.pdf) | `codes/agents/` | `data/tasks/` |
-| Agent Patterns | [AgenticAI.pdf](AgenticAI.pdf) | `codes/agent_patterns/` | `data/tools/` |
-| Multi-Agent Systems | [AgenticAI.pdf](AgenticAI.pdf) | `codes/multi_agent/` | `data/coordination/` |
-| LangGraph | [AgenticAI.pdf](AgenticAI.pdf) | `codes/langgraph/` | `data/state/` |
-| Agentic RAG | [AgenticAI.pdf](AgenticAI.pdf), [exclusive_rag.pdf](exclusive_rag.pdf) | `codes/agentic_rag/` | `data/rag_agents/` |
+| NLP Foundations | [intro_nlp_genai.pdf](intro_nlp_genai.pdf) |
+| Transformers & LLMs | [intro_nlp_genai.pdf](intro_nlp_genai.pdf) | 
+| Motivation for RAG | [exclusive_rag.pdf](exclusive_rag.pdf) | 
+| Retrieval Strategies | [exclusive_rag.pdf](exclusive_rag.pdf) | 
+| RAG Pipelines | [exclusive_rag.pdf](exclusive_rag.pdf) | 
+| RAG Evaluation | [exclusive_rag.pdf](exclusive_rag.pdf) |
+| Agents (Conceptual) | [AgenticAI.pdf](AgenticAI.pdf) | 
+| Agent Patterns | [AgenticAI.pdf](AgenticAI.pdf) | 
+| Multi-Agent Systems | [AgenticAI.pdf](AgenticAI.pdf) 
+| LangGraph | [AgenticAI.pdf](AgenticAI.pdf) | 
+| Agentic RAG | [AgenticAI.pdf](AgenticAI.pdf), [exclusive_rag.pdf](exclusive_rag.pdf) | 
 
 > ⚠️ **Note:**  
 > Paths indicate **intended logical grouping**, not guaranteed availability.
