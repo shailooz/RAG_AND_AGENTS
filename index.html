@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RAG and Agentic AI</title>
+
+  <style>
+    :root {
+      --primary: #2563eb;
+      --secondary: #7c3aed;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --bg: #ffffff;
+      --border: #e5e7eb;
+      --code: #0f172a;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      margin: 0;
+      line-height: 1.65;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem 1.25rem;
+    }
+
+    h1, h2, h3 {
+      line-height: 1.3;
+    }
+
+    h1 {
+      font-size: 2.4rem;
+      margin-bottom: 0.5rem;
+    }
+
+    h2 {
+      font-size: 1.6rem;
+      margin-top: 3rem;
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 0.3rem;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      margin-top: 1.5rem;
+    }
+
+    p {
+      margin: 0.75rem 0;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    li {
+      margin: 0.35rem 0;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .badges img {
+      margin: 0.25rem 0.4rem 0.25rem 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+      font-size: 0.95rem;
+    }
+
+    th, td {
+      border: 1px solid var(--border);
+      padding: 0.6rem 0.7rem;
+      vertical-align: top;
+    }
+
+    th {
+      background: #f9fafb;
+      text-align: left;
+    }
+
+    code, pre {
+      background: #f8fafc;
+      color: var(--code);
+      padding: 0.6rem;
+      display: block;
+      overflow-x: auto;
+      border-radius: 6px;
+      margin: 1rem 0;
+      font-size: 0.9rem;
+    }
+
+    .section-note {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    footer {
+      margin-top: 4rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="badges">
+      <img src="https://img.shields.io/badge/Focus-RAG%20%26%20Agentic%20AI-blue">
+      <img src="https://img.shields.io/badge/Scope-General%20GenAI-blueviolet">
+      <img src="https://img.shields.io/badge/Status-Evolving-success">
+      <img src="https://img.shields.io/badge/License-MIT-yellow">
+      <img src="https://visitor-badge.laobi.icu/badge?page_id=shailooz.RAG_AND_AGENTS&left_text=Views">
+    </div>
+
+    <h1>🤖 RAG and Agentic AI</h1>
+    <p><strong>Understanding Generative AI with Retrieval and Intelligent Agents</strong></p>
+
+    <h2>🎯 Understanding Purpose</h2>
+    <p>
+      This repository is created to build <strong>conceptual clarity</strong> around
+      how modern <strong>Generative AI systems</strong> are designed, extended,
+      and orchestrated.
+    </p>
+
+    <ul>
+      <li>Why standalone LLMs are insufficient</li>
+      <li>How retrieval improves grounding and trust</li>
+      <li>What agents mean as software abstractions</li>
+      <li>How multi-agent and graph-based execution works</li>
+      <li>How RAG and agents combine into Agentic RAG</li>
+    </ul>
+
+    <h2>🔗 Topic → Reference Document</h2>
+
+    <table>
+      <tr><th>Topic</th><th>Reference</th></tr>
+      <tr><td>NLP Foundations</td><td><a href="intro_nlp_genai.pdf">Introduction to NLP and Generative AI</a></td></tr>
+      <tr><td>Transformers & LLMs</td><td><a href="intro_nlp_genai.pdf">Introduction to NLP and Generative AI</a></td></tr>
+      <tr><td>RAG Motivation & Architectures</td><td><a href="exclusive_rag.pdf">Retrieval-Augmented Generation</a></td></tr>
+      <tr><td>RAG Evaluation</td><td><a href="exclusive_rag.pdf">Retrieval-Augmented Generation</a></td></tr>
+      <tr><td>Agents & Agentic RAG</td><td><a href="AgenticAI.pdf">Agentic AI and Multi-Agent Systems</a></td></tr>
+    </table>
+
+    <h2>📓 Topic → Notebook</h2>
+
+    <table>
+      <tr><th>Topic</th><th>Notebook</th></tr>
+      <tr><td>Basic RAG</td><td><a href="LLM_RAG.ipynb">RAG Pipeline Demonstration</a></td></tr>
+      <tr><td>Conversational RAG</td><td><a href="CONVERSATION_RAG.ipynb">Conversation-Aware RAG</a></td></tr>
+      <tr><td>LangChain RAG</td><td><a href="CONV_RAG_LANGCHAIN.ipynb">LangChain Conversational RAG</a></td></tr>
+      <tr><td>LangGraph</td><td><a href="LangGraph_CONV_RAG.ipynb">Graph-Based Conversational RAG</a></td></tr>
+      <tr><td>Agentic AI</td><td><a href="AgenticAI.ipynb">Agentic AI Demonstrations</a></td></tr>
+    </table>
+
+    <h2>🧠 Conceptual Outline</h2>
+
+    <pre>
+NLP → Deep Learning → Transformers → LLM Limits
+        ↓
+Retrieval-Augmented Generation (RAG)
+        ↓
+Agents → Multi-Agent Systems
+        ↓
+LangGraph → Agentic RAG
+    </pre>
+
+    <h2>🛠️ Tools & Technologies Used</h2>
+
+    <ul>
+      <li>Python</li>
+      <li>Large Language Models (LLMs)</li>
+      <li>LangChain</li>
+      <li>LangGraph</li>
+      <li>Vector Databases</li>
+      <li>Embedding Models</li>
+      <li>Prompt Engineering</li>
+      <li>Agent Frameworks</li>
+      <li>Multi-Agent Coordination</li>
+    </ul>
+
+    <h2>👤 Author Profile</h2>
+
+    <p><strong>Dr. Shailesh Sivan</strong><br/>
+    Assistant Professor, Department of Computer Science, CUSAT</p>
+
+    <ul>
+      <li>Generative AI</li>
+      <li>Retrieval-Augmented Generation</li>
+      <li>Agentic AI & Multi-Agent Systems</li>
+      <li>Graph-based AI Architectures</li>
+    </ul>
+
+    <p>
+      📧 <a href="mailto:shaileshsivan@gmail.com">shaileshsivan@gmail.com</a><br/>
+      🌐 <a href="https://github.com/shaileshsi">GitHub Profile</a>
+    </p>
+
+    <footer>
+      <p>
+        Disclaimer: Content may include publicly available and AI-generated material.
+        All credits belong to respective creators. Intended for educational and exploratory use.
+      </p>
+    </footer>
+
+  </div>
+</body>
+</html>
